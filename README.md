@@ -30,9 +30,6 @@ El objetivo de este proyecto es demostrar cómo establecer una conexión cliente
 3. Selecciona el protocolo TCP o UDP:
 
         cd tcpClientServer
-
-o tambien puede ser:
-
         cd udpClientServer
 
 5. Compila los archivos Java:
