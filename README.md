@@ -21,31 +21,30 @@ El objetivo de este proyecto es demostrar cómo establecer una conexión cliente
 
 1. Clona este repositorio en tu máquina local:
 
-git clone https://github.com/BNAV01/networking.git
+        git clone https://github.com/BNAV01/networking.git
 
 2. Navega al directorio del proyecto:
 
-cd ~\Networking Practice\src
+        cd ~\Networking Practice\src
 
 3. Selecciona el protocolo TCP o UDP:
 
-cd tcpClientServer
+        cd tcpClientServer
+o tambien puede ser
 
-        o
-
-cd udpClientServer
+        cd udpClientServer
 
 5. Compila los archivos Java:
 
-javac Server.java Client.java
+        javac Server.java Client.java
 
 5. Ejecuta el servidor:
 
-java Server
+        java Server
 
 6. En otra terminal, ejecuta el cliente:
 
-java Client
+        java Client
 
 7. Sigue las instrucciones en la terminal del cliente para enviar mensajes al servidor y viceversa.
 
