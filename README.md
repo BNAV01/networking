@@ -37,15 +37,15 @@ cd udpClientServer
 
 5. Compila los archivos Java:
 
-javac Servidor.java Cliente.java
+javac Server.java Client.java
 
 5. Ejecuta el servidor:
 
-java Servidor
+java Server
 
 6. En otra terminal, ejecuta el cliente:
 
-java Cliente
+java Client
 
 7. Sigue las instrucciones en la terminal del cliente para enviar mensajes al servidor y viceversa.
 
