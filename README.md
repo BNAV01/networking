@@ -31,7 +31,7 @@ cd ~\Networking Practice\src
 
 cd tcpClientServer
 
-o
+        o
 
 cd udpClientServer
 
