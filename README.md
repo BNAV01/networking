@@ -14,7 +14,7 @@ El objetivo de este proyecto es demostrar cómo establecer una conexión cliente
 
 ## Requisitos
 
-- JDK (Java Development Kit) instalado en el sistema.
+- JDK 21 (Java Development Kit) instalado en el sistema.
 - Conexión a internet (opcional para ejecución remota).
 
 ## Uso
@@ -31,18 +31,20 @@ El objetivo de este proyecto es demostrar cómo establecer una conexión cliente
 
         cd tcpClientServer
         cd udpClientServer
+        cd GUIServerApp
 
 5. Compila los archivos Java:
 
-        javac Server.java Client.java
+        javac Server.java
+        javac Client.java
 
 5. Ejecuta el servidor:
 
-        java Server
+        java Server.java
 
-6. En otra terminal, ejecuta el cliente:
+6. En otras terminales, ejecuta el cliente:
 
-        java Client
+        java Client.java
 
 7. Sigue las instrucciones en la terminal del cliente para enviar mensajes al servidor y viceversa.
 
