@@ -53,7 +53,7 @@ public class Server {
                     if (message.equals("***CLOSE***")) {
                         break;
                     }
-                    System.out.println("MENSAJE RECIBIDO.");
+                    System.out.println("MENSAJE RECIBIDO: " + message + "\n");
                     numMessages++;
                     output.println("MENSAJE NUM " + numMessages + ": " + message);
                 }

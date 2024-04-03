@@ -10,7 +10,7 @@ public class Server {
     private static final int PORT = 8082;
 
     public static void main(String[] args) {
-        System.out.println("Abriendo puerto. . . \n");
+        System.out.println("ABRIENDO PUERTO: " + PORT + "\n");
         try (DatagramSocket datagramSocket = new DatagramSocket(PORT)) {
             handleClient(datagramSocket);
         } catch (SocketException socketException) {
